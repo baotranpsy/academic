@@ -3,12 +3,12 @@
  ******************************************************************************/
 
 .cv {
-  .list-group-item {
+  .card .list-group-item {
     padding-left: 0;
     padding-right: 0;
   }
 
-  .list-group-item .row {
+  .card .list-group-item > .row {
     display: grid;
     grid-template-columns: 120px minmax(0, 1fr);
     column-gap: 22px;
@@ -83,7 +83,7 @@
   }
 
   @media (max-width: 767px) {
-    .list-group-item .row {
+    .card .list-group-item > .row {
       display: block;
     }
 
