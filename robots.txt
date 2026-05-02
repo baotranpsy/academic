@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://vytrucle-02.github.io/academic/sitemap.xml
