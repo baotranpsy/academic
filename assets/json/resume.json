@@ -138,19 +138,46 @@
   }
 ]
   "grants_and_fellowships": [
-    {
-      "title": "NT$12,000 Scholarship",
-      "date": "2025",
-      "awarder": "Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University",
-      "summary": "Scholarship awarded for the master's program at Taipei Medical University."
-    },
-    {
-      "title": "Taiwan Experience Education Program (TEEP)",
-      "date": "2023",
-      "awarder": "Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University",
-      "summary": "Neuroscience internship program entitled “The Nature of Mind and Brain – A Multimodal Neuroscience Approach.”"
-    }
-  ],
+  {
+    "category": "In M.S. Program",
+    "date": "2025 - Present",
+    "items": [
+      {
+        "title": "NT$12,000 Scholarship",
+        "awarder": "Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University",
+        "summary": "Scholarship awarded for the master's program at Taipei Medical University."
+      }
+    ]
+  },
+  {
+    "category": "In B.A. Program",
+    "date": "2019 - 2023",
+    "items": [
+      {
+        "title": "Ho Chi Minh City University of Education Merit Scholarship",
+        "amount": "$1,500",
+        "summary": "Estimated total value."
+      },
+      {
+        "title": "The Student Scientific Research Award – Euréka",
+        "location": "Ho Chi Minh City, Vietnam",
+        "amount": "$400",
+        "summary": "Estimated total value."
+      }
+    ]
+  },
+  {
+    "category": "In High School",
+    "date": "2016 - 2019",
+    "items": [
+      {
+        "title": "Incentive for Participation and Awards in High School Olympiads",
+        "amount": "$500",
+        "summary": "Estimated total value."
+      }
+    ]
+  }
+]
   "interests": [
     {
       "name": "Neuroscience",

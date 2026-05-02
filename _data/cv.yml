@@ -89,23 +89,17 @@
 - title: Grants and Fellowships
   type: time_table
   contents:
-    - year: 2025
-      items:
+    - title: In M.S. Program
+      year: 2025 - Present
+      description:
         - NT$12,000 scholarship, Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University.
-    - year: 2023
-      items:
-        - Taiwan Experience Education Program (TEEP), Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University.
+    - title: In B.A. Program
+      year: 2019 - 2023
+      description:
+        - Ho Chi Minh City University of Education Merit Scholarship - $1,500 estimated total value.
+        - The Student Scientific Research Award – Euréka in Ho Chi Minh City, Vietnam - $400 estimated total value.
+    - title: In High School
+      year: 2016 - 2019
+      description:
+        - Incentive for Participation and Awards in High School Olympiads - $500 estimated total value.
 
-- title: Research Interests
-  type: nested_list
-  contents:
-    - title: Neuroscience
-      items:
-        - Brain states
-        - Neural mechanisms
-        - Multimodal neuroscience approaches
-    - title: Mental Health
-      items:
-        - Psychological assessment
-        - Clinical psychology
-        - Counseling and psychotherapy
