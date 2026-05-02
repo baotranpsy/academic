@@ -1,3 +1,6 @@
+Thay toàn bộ file `_sass/_layout.scss` bằng bản này:
+
+```scss
 /******************************************************************************
  * Content
  ******************************************************************************/
@@ -152,51 +155,80 @@ body.sticky-bottom-footer {
  ******************************************************************************/
 
 .cv {
+  .list-group-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .list-group-item .row {
     display: grid;
-    grid-template-columns: 220px minmax(0, 1fr);
-    column-gap: 28px;
+    grid-template-columns: 155px minmax(0, 1fr);
+    column-gap: 20px;
     align-items: flex-start;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .date-column {
-    width: 220px;
-    max-width: 220px;
+    width: 155px;
+    max-width: 155px;
     text-align: left !important;
   }
 
-  .date-column + div {
+  .cv-content {
     width: 100%;
     max-width: 100%;
+    min-width: 0;
   }
 
   .date-column .badge {
     display: inline-block;
-    min-width: 165px !important;
-    max-width: 200px;
-    padding: 0.38rem 0.55rem;
+    width: 145px;
+    min-width: 145px !important;
+    max-width: 145px;
+    padding: 0.38rem 0.45rem;
     white-space: normal;
     text-align: center;
-    line-height: 1.2;
+    line-height: 1.18;
+    font-size: 0.78rem;
   }
 
   .date-column .location {
+    width: 145px;
     margin-top: 0.45rem;
     margin-bottom: 0;
     color: var(--global-text-color-light);
-    font-size: 0.82rem;
+    font-size: 0.78rem;
     line-height: 1.25;
   }
 
   .date-column .iconlocation {
-    margin-right: 0.25rem;
+    margin-right: 0.2rem;
     color: #d880d3;
+  }
+
+  .cv-content h6.title {
+    margin-bottom: 0.6rem;
+    line-height: 1.25;
+  }
+
+  .cv-content .institution {
+    margin-bottom: 0.65rem;
+  }
+
+  .cv-content .items {
+    margin-top: 0.45rem;
+    padding-left: 1.1rem;
   }
 
   .date-column + div h6.title,
   .date-column + div h6,
   .date-column + div p,
-  .date-column + div ul {
+  .date-column + div ul,
+  .cv-content h6,
+  .cv-content p,
+  .cv-content ul,
+  .cv-content table {
     margin-left: 0 !important;
   }
 
@@ -211,7 +243,10 @@ body.sticky-bottom-footer {
       margin-bottom: 0.65rem;
     }
 
-    .date-column .badge {
+    .date-column .badge,
+    .date-column .location {
+      width: auto;
+      min-width: 0 !important;
       max-width: 100%;
     }
   }
@@ -222,3 +257,4 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+```
