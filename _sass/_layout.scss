@@ -10,16 +10,17 @@
 
   .list-group-item .row {
     display: grid;
-    grid-template-columns: 145px minmax(0, 1fr);
-    column-gap: 16px;
+    grid-template-columns: 120px minmax(0, 1fr);
+    column-gap: 22px;
     align-items: flex-start;
     margin-left: 0;
     margin-right: 0;
   }
 
   .date-column {
-    width: 145px;
-    max-width: 145px;
+    width: 120px;
+    max-width: 120px;
+    padding-left: 10px;
     text-align: left !important;
   }
 
@@ -31,19 +32,19 @@
 
   .date-column .badge {
     display: inline-block;
-    width: 138px;
-    min-width: 138px !important;
-    max-width: 138px;
-    padding: 0.36rem 0.4rem;
+    width: auto;
+    min-width: 0 !important;
+    max-width: 112px;
+    padding: 0.32rem 0.48rem;
     white-space: normal;
     text-align: center;
-    line-height: 1.16;
+    line-height: 1.15;
     font-size: 0.76rem;
   }
 
   .date-column .location {
-    width: 138px;
-    margin-top: 0.42rem;
+    width: 112px;
+    margin-top: 0.35rem;
     margin-bottom: 0;
     color: var(--global-text-color-light);
     font-size: 0.76rem;
@@ -89,6 +90,7 @@
     .date-column {
       width: 100%;
       max-width: 100%;
+      padding-left: 0;
       margin-bottom: 0.65rem;
     }
 
