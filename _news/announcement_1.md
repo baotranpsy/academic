@@ -4,4 +4,4 @@ title: "Admitted to the Psychology program at <strong><span style='color: #d880d
 date: 2019-10-01
 inline: true
 ---
-Admitted to the Psychology program at <strong><span style='color: #d880d3;'>Ho Chi Minh City University of Education</span></strong> in October 2019.
+Admitted to the Psychology program at <strong><span style='color: #d880d3;'>Ho Chi Minh City University of Education</span></strong>.
