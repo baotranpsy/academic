@@ -18,10 +18,22 @@ announcements:
   limit: 15 # leave blank to include all the news in the `_news` folder
 ---
 
-I hold a Bachelor’s degree in Psychology from <span style="color:#d880d3; font-weight:bold;">Ho Chi Minh University of Education</span>, Vietnam. During my undergraduate studies, I worked as a Research Assistant in the university’s laboratory under the supervision of <span style="color:#d880d3; font-weight:bold;">Dr. Vinh-Long Tran-Chi</span>, where I gained hands-on experience in psychological research.
+I received my Bachelor’s degree from 
+<a href="https://www.hcmue.edu.vn/en/about-hcmue/general-information" target="_blank" style="color:#d880d3; font-weight:bold; text-decoration:none;">
+Ho Chi Minh City University of Education
+</a>, Vietnam, where I worked as a Research Assistant under the supervision of 
+<span style="color:#d880d3; font-weight:bold;">Dr. Vinh-Long Tran-Chi</span>.
 
-My research primarily explores the long-term effects of adverse childhood experiences and their associations with adult psychopathology. Through my clinical internship at a forensic psychiatry center, I obtained valuable exposure to psychological assessment and intervention practices. 
-In addition, I currently serve as a peer reviewer for international psychology journals. My academic interests center on cognitive-behavioral mechanisms underlying common adult disorders, including anxiety, depression, and trauma-related conditions.
+I am currently pursuing a Master’s degree in the 
+<a href="https://hub.tmu.edu.tw/en/organisations/graduate-institute-of-mind-brain-and-consciousness" target="_blank" style="color:#d880d3; font-weight:bold; text-decoration:none;">
+Graduate Institute of Mind, Brain and Consciousness
+</a> at 
+<a href="https://www.tmu.edu.tw/" target="_blank" style="color:#d880d3; font-weight:bold; text-decoration:none;">
+Taipei Medical University
+</a>, where I am a recipient of the Type B Scholarship.
+
+My research interests lie in neuroscience, with a particular focus on brain states and their underlying neural mechanisms. Prior to this, my academic work primarily centered on mental health. I am currently affiliated with The Brain State Lab and involved in ongoing research projects.
+
 
 
 
