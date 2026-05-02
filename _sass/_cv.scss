@@ -19,10 +19,7 @@ a.btncv {
   color: var(--global-text-color) !important;
   border: 1px solid var(--global-text-color) !important;
   border-radius: 0.125rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  padding: 0.25rem 1rem;
   text-decoration: none;
   font-weight: 400;
   font-size: 0.7rem;
@@ -43,29 +40,37 @@ a.btncv:hover {
  *****************************/
 
 p.location {
-  font-size: 0.7rem;
-  white-space: nowrap;
+  margin-top: 0.45rem;
+  margin-bottom: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.78rem;
+  line-height: 1.25;
+  white-space: normal;
 }
 
 i.iconlocation {
-  color: var(--global-theme-color);
+  color: #d880d3;
   font-size: 0.8rem;
 }
 
 i.iconinstitution {
-  color: var(--global-theme-color);
+  color: #d880d3;
   font-size: 0.95rem;
   margin-right: 0.3rem;
 }
 
 i.icondepartment {
-  color: var(--global-theme-color);
+  color: #d880d3;
   font-size: 0.8rem;
   margin-right: 0.3rem;
 }
 
 table.institution {
-  margin-bottom: 1rem;
+  margin-bottom: 0.65rem;
+}
+
+td.institution {
+  line-height: 1.45;
 }
 
 td.department {
@@ -126,28 +131,25 @@ td.list-group-category-icon {
   padding-right: 0.4rem;
 }
 
-td.list-group-name {
+td.list-group-name,
+td.list-group-level {
   font-size: 0.8rem;
 }
 
-td.list-group-level {
-  font-size: 0.8rem;
+td.list-group-level,
+td.list-group-school,
+p.list-group-time,
+td.list-group-link {
   padding-left: 0.5rem;
 }
 
 td.list-group-school {
   font-size: 0.7rem;
-  padding-left: 0.5rem;
   text-align: center;
 }
 
 p.list-group-time {
   font-size: 0.7rem;
-  padding-left: 0.5rem;
-}
-
-td.list-group-link {
-  padding-left: 0.5rem;
 }
 
 /*****************************
@@ -177,7 +179,7 @@ span.badge-toc {
   color: var(--global-bg-color);
   background-color: var(--global-theme-color);
   border-radius: 0.125rem;
-  padding: 0.125rem 0.5rem 0.125rem 0.5rem;
+  padding: 0.125rem 0.5rem;
   font-weight: 700 !important;
   display: inline-block;
   inline-size: fit-content;
@@ -194,27 +196,3 @@ ul.timeline li::before {
   left: 2px;
   top: -0.5rem;
 }
-
-/*ul.timeline::before {
-     content: "●";
-     font-size: 1em;
-     display: inline-block;
-     margin: 0;
-     padding: 0;
-     position: relative;
-     left: -2px;
-     top: 0.4rem;
-     color: var(--global-text-color);
-}
- ul.timeline::after {
-     content: "●";
-     font-size: 1em;
-     display: inline-block;
-     margin: 0;
-     padding: 0;
-     position: relative;
-     left: -2px;
-     top: -1rem;
-     color: var(--global-text-color);
-}
-*/
