@@ -30,17 +30,7 @@ announcements:
   }
 </style>
 
-I received my Bachelor’s degree from 
-<a href="https://www.hcmue.edu.vn/en/about-hcmue/general-information" target="_blank" class="highlight-link">
-Ho Chi Minh City University of Education
-</a>, Vietnam, where I worked as a Research Assistant under the supervision of 
-<span style="color:#d880d3; font-weight:bold;">Dr. Vinh-Long Tran-Chi</span>. I am currently pursuing a Master’s degree in the 
-<a href="https://hub.tmu.edu.tw/en/organisations/graduate-institute-of-mind-brain-and-consciousness" target="_blank" class="highlight-link">
-Graduate Institute of Mind, Brain and Consciousness
-</a> at 
-<a href="https://www.tmu.edu.tw/" target="_blank" class="highlight-link">
-Taipei Medical University
-</a>, where I am a recipient of the Type B Scholarship. My research interests lie in neuroscience, with a particular focus on brain states and their underlying neural mechanisms. Prior to this, my academic work primarily centered on mental health. I am currently affiliated with The Brain State Lab and involved in ongoing research projects.
+I received my Bachelor’s degree in Psychology from <strong><span style="color: #d880d3;">Ho Chi Minh City University of Education</span></strong>, Vietnam, where I worked as a Research Assistant under the supervision of <strong><span style="color: #8e7cc3;">Dr. Vinh-Long Tran-Chi</span></strong>. I am currently pursuing a Master’s degree at the <strong><span style="color: #d880d3;">Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University</span></strong>, Taiwan, where I am a recipient of a NT$12,000 scholarship. My research interests lie in neuroscience, with a particular focus on brain states and their underlying neural mechanisms. Prior to this, my academic work primarily centered on mental health. I am currently affiliated with <strong><span style="color: #d880d3;">The Brain State Lab</span></strong> and involved in ongoing research projects.
 
 
 
