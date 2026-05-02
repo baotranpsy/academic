@@ -1,7 +1,7 @@
 ---
 layout: none
-title: "Admitted to a master's program at <span style='color: #d880d3;'>Thu Duc City Hospital</span> with a Type B scholarship"
-date: 2025-01-01
+title: "Accepted to <a class='announcement-link' href='https://www.icisequynhon.com/conferences/2023/VSSS10/10years/index.htm' target='_blank' rel='noopener'><strong><span style='color: #8e7cc3;'>Vietnam Summer School of Science 2023</span></strong></a> at <strong><span style='color: #d880d3;'>ICISE</span></strong>"
+date: 2023-07-01
 inline: true
 ---
-Admitted to a master's program at the Department of Psychosomatic Medicine, <span style='color: #d880d3;'>Thu Duc City Hospital</span>, Ho Chi Minh City, Vietnam, with a Type B scholarship.
+Accepted to <a class='announcement-link' href='https://www.icisequynhon.com/conferences/2023/VSSS10/10years/index.htm' target='_blank' rel='noopener'><strong><span style='color: #8e7cc3;'>Vietnam Summer School of Science 2023</span></strong></a>, entitled <strong><span style='color: #f08a5d;'>“Embracing the Past, Shaping the Future”</span></strong>, at the <strong><span style='color: #d880d3;'>International Centre for Interdisciplinary Science and Education (ICISE)</span></strong>, Binh Dinh Province, Vietnam.
