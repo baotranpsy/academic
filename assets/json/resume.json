@@ -115,20 +115,28 @@
   }
 ]
   ],
-  "awards": [
-    {
-      "title": "Accepted to Vietnam Summer School of Science 2023",
-      "date": "2023",
-      "awarder": "International Centre for Interdisciplinary Science and Education (ICISE)",
-      "summary": "Entitled “Embracing the Past, Shaping the Future,” Binh Dinh Province, Vietnam."
-    },
-    {
-      "title": "Accepted to Vietnam Summer School of Science cohort 2022",
-      "date": "2022",
-      "awarder": "International Centre for Interdisciplinary Science and Education (ICISE)",
-      "summary": "Entitled “Stories of Life,” Binh Dinh Province, Vietnam."
-    }
-  ],
+  "academic_activities_and_professional_service": [
+  {
+    "title": "Invited Reviewer",
+    "organization": "BMC Psychology; Frontiers in Psychology",
+    "date": "2025",
+    "summary": "Invited to serve as a reviewer for BMC Psychology and Frontiers in Psychology."
+  },
+  {
+    "title": "Vietnam Summer School of Science 2023",
+    "organization": "International Centre for Interdisciplinary Science and Education (ICISE)",
+    "location": "Binh Dinh Province, Vietnam",
+    "date": "2023",
+    "summary": "Participated in Vietnam Summer School of Science 2023, entitled “Embracing the Past, Shaping the Future.”"
+  },
+  {
+    "title": "Vietnam Summer School of Science cohort 2022",
+    "organization": "International Centre for Interdisciplinary Science and Education (ICISE)",
+    "location": "Binh Dinh Province, Vietnam",
+    "date": "2022",
+    "summary": "Participated in Vietnam Summer School of Science cohort 2022, entitled “Stories of Life.”"
+  }
+]
   "grants_and_fellowships": [
     {
       "title": "NT$12,000 Scholarship",

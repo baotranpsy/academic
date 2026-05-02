@@ -66,15 +66,25 @@
         - Participated in Health Examinations for Children Affected by COVID-19 in Ho Chi Minh City.
         - Assisted with preliminary assessment for children affected by COVID-19 at the Psychological Counseling Area in the program.
 
-- title: Awards
+- title: Academic Activities and Professional Service
   type: time_table
   contents:
-    - year: 2023
-      items:
-        - Accepted to Vietnam Summer School of Science 2023, entitled “Embracing the Past, Shaping the Future,” at ICISE, Binh Dinh Province, Vietnam.
-    - year: 2022
-      items:
-        - Accepted to Vietnam Summer School of Science cohort 2022, entitled “Stories of Life,” at ICISE, Binh Dinh Province, Vietnam.
+    - title: Invited Reviewer
+      institution: BMC Psychology; Frontiers in Psychology
+      year: 2025
+      description:
+        - Invited to serve as a reviewer for BMC Psychology and Frontiers in Psychology.
+    - title: Vietnam Summer School of Science 2023
+      institution: International Centre for Interdisciplinary Science and Education (ICISE), Binh Dinh Province, Vietnam
+      year: 2023
+      description:
+        - Participated in Vietnam Summer School of Science 2023, entitled “Embracing the Past, Shaping the Future.”
+    - title: Vietnam Summer School of Science cohort 2022
+      institution: International Centre for Interdisciplinary Science and Education (ICISE), Binh Dinh Province, Vietnam
+      year: 2022
+      description:
+        - Participated in Vietnam Summer School of Science cohort 2022, entitled “Stories of Life.”
+
 
 - title: Grants and Fellowships
   type: time_table
