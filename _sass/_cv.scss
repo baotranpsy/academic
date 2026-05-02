@@ -88,6 +88,107 @@ div.container-links {
 }
 
 /*****************************
+ * CV compact timeline layout
+ *****************************/
+
+.cv {
+  .card .list-group-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .card .list-group-item > .row {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    column-gap: 22px;
+    align-items: flex-start;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .card .list-group-item > .row > .date-column {
+    width: 120px;
+    max-width: 120px;
+    padding-left: 10px;
+    text-align: left !important;
+  }
+
+  .card .list-group-item > .row > .cv-content {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .card .list-group-item > .row > .date-column .badge {
+    display: inline-block;
+    width: auto;
+    min-width: 0 !important;
+    max-width: 112px;
+    padding: 0.32rem 0.48rem;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.15;
+    font-size: 0.76rem;
+  }
+
+  .card .list-group-item > .row > .date-column .location {
+    width: 112px;
+    margin-top: 0.35rem;
+    margin-bottom: 0;
+    color: var(--global-text-color-light);
+    font-size: 0.76rem;
+    line-height: 1.25;
+    white-space: normal;
+  }
+
+  .card .list-group-item > .row > .date-column .iconlocation {
+    margin-right: 0.2rem;
+    color: #d880d3;
+  }
+
+  .card .list-group-item > .row > .cv-content h6.title {
+    margin-bottom: 0.5rem;
+    line-height: 1.25;
+  }
+
+  .card .list-group-item > .row > .cv-content .institution {
+    margin-bottom: 0.55rem;
+  }
+
+  .card .list-group-item > .row > .cv-content .items {
+    margin-top: 0.35rem;
+    padding-left: 1.05rem;
+  }
+
+  .card .list-group-item > .row > .cv-content h6,
+  .card .list-group-item > .row > .cv-content p,
+  .card .list-group-item > .row > .cv-content ul,
+  .card .list-group-item > .row > .cv-content table {
+    margin-left: 0 !important;
+  }
+
+  @media (max-width: 767px) {
+    .card .list-group-item > .row {
+      display: block;
+    }
+
+    .card .list-group-item > .row > .date-column {
+      width: 100%;
+      max-width: 100%;
+      padding-left: 0;
+      margin-bottom: 0.65rem;
+    }
+
+    .card .list-group-item > .row > .date-column .badge,
+    .card .list-group-item > .row > .date-column .location {
+      width: auto;
+      min-width: 0 !important;
+      max-width: 100%;
+    }
+  }
+}
+
+/*****************************
  * CV MAP styles
  *****************************/
 
