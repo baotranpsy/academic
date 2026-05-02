@@ -6,7 +6,7 @@ subtitle: vytrucle.judy@gmail.com
 
 profile:
   align: right
-  image: vyvybio.jpg
+  image: nguyenduongbaotran.jpg
   image_circular: false # crops the image to make it circular
   more_info: ""
 
