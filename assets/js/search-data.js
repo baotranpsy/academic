@@ -398,8 +398,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/academic/books/the_godfather/";
-            },},{id: "news-admitted-to-the-psychology-program-at-ho-chi-minh-city-university-of-education-in-october-2019",
-          title: 'Admitted to the Psychology program at Ho Chi Minh City University of Education...',
+            },},{id: "news-admitted-to-the-psychology-program-at-ho-chi-minh-city-university-of-education",
+          title: 'Admitted to the Psychology program at Ho Chi Minh City University of Education....',
           description: "",
           section: "News",},{id: "news-accepted-as-a-clinical-psychology-intern-at-the-department-of-psychosomatic-medicine-thu-duc-city-hospital-ho-chi-minh-city-vietnam",
           title: 'Accepted as a Clinical Psychology intern at the Department of Psychosomatic Medicine, Thu...',
@@ -410,7 +410,7 @@ ninja.data = [{
           section: "News",},{id: "news-accepted-as-an-intern-at-the-southern-vietnam-hiv-and-addiction-treatment-technology-transfer-center-svhattc-ho-chi-minh-city-university-of-medicine-and-pharmacy-ho-chi-minh-city-vietnam",
           title: 'Accepted as an intern at the Southern Vietnam HIV and Addiction Treatment Technology...',
           description: "",
-          section: "News",},{id: "news-accepted-as-a-neurosciences-intern-through-the-taiwan-experience-education-program-teep-graduate-institute-of-mind-brain-and-consciousness-gimbc-taipei-medical-university-taipei-taiwan-from-april-2023-to-september-2023",
+          section: "News",},{id: "news-accepted-as-a-neurosciences-intern-through-the-taiwan-experience-education-program-teep-graduate-institute-of-mind-brain-and-consciousness-gimbc-taipei-medical-university-taipei-taiwan",
           title: 'Accepted as a Neurosciences intern through the Taiwan Experience Education Program (TEEP), Graduate...',
           description: "",
           section: "News",},{id: "news-accepted-to-vietnam-summer-school-of-science-2023-entitled-embracing-the-past-shaping-the-future-at-the-international-centre-for-interdisciplinary-science-and-education-icise-binh-dinh-province-vietnam",
