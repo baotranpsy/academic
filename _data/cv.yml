@@ -7,6 +7,8 @@
       value: baotranpsy@gmail.com
     - name: Languages
       value: Vietnamese, English
+    - name: Research Interests
+      value: Neuroscience, consciousness, brain states, neural mechanisms, mental health
 
 - title: Education
   type: time_table
@@ -16,7 +18,7 @@
       year: 2025 - Present
       description:
         - Recipient of a NT$12,000 scholarship.
-        - Research interests in neuroscience, brain states, and their underlying neural mechanisms.
+        - Affiliated with The Brain State Lab.
     - title: Bachelor’s Degree in Psychology
       institution: Ho Chi Minh City University of Education, Ho Chi Minh City, Vietnam
       year: 2019 - 2024
@@ -35,19 +37,48 @@
         - Mr. Vinh-Long Tran-Chi is a Ph.D. Candidate in Clinical Science, Faculty of Medicine, Chulalongkorn University, Thailand.
     - title: Neuroscience Intern Student
       institution: Taiwan Experience Education Program (TEEP), Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University, Taipei City, Taiwan
-      year: April 2023 - September 2023
+      year: Apr 2023 - Sep 2023
       description:
         - Participated in “The Nature of Mind and Brain – A Multimodal Neuroscience Approach.”
     - title: Intern
       institution: Southern Vietnam HIV and Addiction Treatment Technology Transfer Center (SVHATTC), University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam
-      year: January 2023 - March 2023
+      year: Jan 2023 - Mar 2023
       description:
         - Completed an internship at SVHATTC.
     - title: Clinical Psychology Intern
       institution: Department of Psychosomatic Medicine, Thu Duc City Hospital, Ho Chi Minh City, Vietnam
-      year: February 2022 - May 2022
+      year: Feb 2022 - May 2022
       description:
         - Completed a clinical psychology internship.
+
+- title: Volunteer
+  type: time_table
+  contents:
+    - title: Content Collaborator
+      institution: PsyCancer Talk - Psychosocial Project, Vietnam
+      year: May 2023
+      description:
+        - Participated in the PsyCancer Talk - Psychosocial project aimed at raising awareness and supporting the mental health of communities affected by cancer in Vietnam.
+
+- title: Awards
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - Accepted to Vietnam Summer School of Science 2023, entitled “Embracing the Past, Shaping the Future,” at ICISE, Binh Dinh Province, Vietnam.
+    - year: 2022
+      items:
+        - Accepted to Vietnam Summer School of Science cohort 2022, entitled “Stories of Life,” at ICISE, Binh Dinh Province, Vietnam.
+
+- title: Grants and Fellowships
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - NT$12,000 scholarship, Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University.
+    - year: 2023
+      items:
+        - Taiwan Experience Education Program (TEEP), Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University.
 
 - title: Research Interests
   type: nested_list
