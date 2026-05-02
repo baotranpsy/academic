@@ -469,14 +469,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%76%79%74%72%75%63%6C%65.%6A%75%64%79@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%62%61%6F%74%72%61%6E%70%73%79@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/vy-truc-le-a10155276", "_blank");
+          window.open("https://www.linkedin.com/in/bao-tran-nguyen-duong-b13277279", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -490,21 +490,21 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=pnxR0u0AAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=fn3BgTkAAAAJ", "_blank");
         },
       },{
         id: 'social-researchgate',
         title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Vy-Le-121?ev=hdr_xprf/", "_blank");
+          window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Bao-Tran-Nguyen-Duong-2/", "_blank");
         },
       },{
         id: 'social-scopus',
         title: 'Scopus',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.scopus.com/authid/detail.uri?authorId=https://www.scopus.com/authid/detail.uri?authorId=58889167400", "_blank");
+          window.open("https://www.scopus.com/authid/detail.uri?authorId=57346884300", "_blank");
         },
       },{
       id: 'light-theme',
