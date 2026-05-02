@@ -2,96 +2,63 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Bao-Tran Nguyen-Duong
+    - name: Email
+      value: baotranpsy@gmail.com
     - name: Languages
-      value: English, German
+      value: Vietnamese, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master’s Program
+      institution: Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University, Taipei, Taiwan
+      year: 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Recipient of a NT$12,000 scholarship.
+        - Research interests in neuroscience, brain states, and their underlying neural mechanisms.
+    - title: Bachelor’s Degree in Psychology
+      institution: Ho Chi Minh City University of Education, Ho Chi Minh City, Vietnam
+      year: 2019 - 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Studied in the Psychology program.
+        - Conducted academic work primarily centered on mental health.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: PhD. Vinh-Long Tran-Chi’s Psychological Scientific Research Laboratory
+      year: 2021 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Worked under the supervision of Mr. Vinh-Long Tran-Chi, Lecturer in the Faculty of Psychology, Ho Chi Minh City University of Education, Vietnam.
+        - Mr. Vinh-Long Tran-Chi is a Ph.D. Candidate in Clinical Science, Faculty of Medicine, Chulalongkorn University, Thailand.
+    - title: Neuroscience Intern Student
+      institution: Taiwan Experience Education Program (TEEP), Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University, Taipei City, Taiwan
+      year: April 2023 - September 2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Participated in “The Nature of Mind and Brain – A Multimodal Neuroscience Approach.”
+    - title: Intern
+      institution: Southern Vietnam HIV and Addiction Treatment Technology Transfer Center (SVHATTC), University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam
+      year: January 2023 - March 2023
       description:
+        - Completed an internship at SVHATTC.
+    - title: Clinical Psychology Intern
+      institution: Department of Psychosomatic Medicine, Thu Duc City Hospital, Ho Chi Minh City, Vietnam
+      year: February 2022 - May 2022
+      description:
+        - Completed a clinical psychology internship.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Neuroscience
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Brain states
+        - Neural mechanisms
+        - Multimodal neuroscience approaches
+    - title: Mental Health
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Psychological assessment
+        - Clinical psychology
+        - Counseling and psychotherapy
