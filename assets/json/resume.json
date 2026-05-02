@@ -6,7 +6,6 @@
     "email": "baotranpsy@gmail.com",
     "phone": "",
     "url": "https://baotranpsy.github.io/academic/",
-    "interests": "Neuroscience, consciousness, brain states, neural mechanisms, mental health",
     "location": {
       "address": "",
       "postalCode": "",
@@ -53,7 +52,7 @@
       "url": "https://hcmue.edu.vn",
       "studyType": "Bachelor’s Degree in Psychology",
       "startDate": "2019",
-      "endDate": "2024",
+      "endDate": "2023",
       "summary": "Studied in the Psychology program and conducted academic work primarily centered on mental health."
     }
   ],
@@ -95,16 +94,26 @@
       "highlights": []
     }
   ],
-  "volunteer": [
-    {
-      "organization": "PsyCancer Talk - Psychosocial Project",
-      "position": "Content Collaborator",
-      "url": "",
-      "startDate": "2023-05",
-      "endDate": "2023-05",
-      "summary": "Participated in the PsyCancer Talk - Psychosocial project aimed at raising awareness and supporting the mental health of communities affected by cancer in Vietnam.",
-      "highlights": []
-    }
+ "volunteer": [
+  {
+    "organization": "PsyCancer Talk - Psychosocial Project",
+    "position": "Content Collaborator",
+    "url": "",
+    "startDate": "2023-05",
+    "endDate": "2023-05",
+    "summary": "Participated in the PsyCancer Talk - Psychosocial project aimed at raising awareness and supporting the mental health of communities affected by cancer in Vietnam.",
+    "highlights": []
+  },
+  {
+    "organization": "“Care to Rise” Program",
+    "position": "Volunteer",
+    "url": "",
+    "startDate": "2022-02",
+    "endDate": "2022-02",
+    "summary": "Participated in Health Examinations for Children Affected by COVID-19 in Ho Chi Minh City and assisted with preliminary assessment for children affected by COVID-19 at the Psychological Counseling Area in the program.",
+    "highlights": []
+  }
+]
   ],
   "awards": [
     {
