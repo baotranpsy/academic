@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Bao-Tran Nguyen-Duong",
-    "label": "Psychologist",
+    "label": "Researcher",
     "image": "bio-pic.jpg",
-    "email": "vytrucle.judy@gmail.com",
+    "email": "baotranpsy@gmail.com",
     "phone": "",
-    "url": "https://vytrucle-02.github.io/academic/",
-    "summary": "I am a psychology graduate with experience in both research and clinical settings. My research focuses on the long-term effects of adverse childhood experiences and their associations with adult psychopathology. During my clinical internship at a forensic psychiatry center, I gained exposure to assessment and intervention processes. I also serve as a peer reviewer for international psychology journals. My current interests lie in cognitive-behavioral mechanisms underlying common adult disorders such as anxiety, depression, and trauma-related conditions.",
+    "url": "https://baotranpsy.github.io/academic/",
+    "Interests": "Neurosciences, Consciousness",
     "location": {
       "address": "",
       "postalCode": "",
@@ -18,75 +18,81 @@
       {
         "network": "LinkedIn",
         "username": "vy-truc-le-a10155276",
-        "url": "https://www.linkedin.com/in/vy-truc-le-a10155276/"
+        "url": "https://www.linkedin.com/in/bao-tran-nguyen-duong-b13277279/"
       },
       {
         "network": "Google Scholar",
         "username": "pnxR0u0AAAAJ",
-        "url": "https://scholar.google.com/citations?user=pnxR0u0AAAAJ&hl=vi"
+        "url": "https://scholar.google.com/citations?user=fn3BgTkAAAAJ&hl=vi"
       },
       {
         "network": "ORCID",
-        "username": "0009-0002-1008-2380",
-        "url": "https://orcid.org/0009-0002-1008-2380"
+        "username": "0000-0003-4773-8056",
+        "url": "https://orcid.org/0000-0003-4773-8056"
       },
       {
         "network": "ResearchGate",
-        "username": "Vy-Le-121",
-        "url": "https://www.researchgate.net/profile/Vy-Le-121?ev=hdr_xprf"
+        "username": "Bao-Tran-Nguyen-Duong-2",
+        "url": "https://www.researchgate.net/profile/Bao-Tran-Nguyen-Duong-2"
       }
     ]
   },
   "education": [
     {
-      "institution": "Ho Chi Minh University of Education, HCMC",
+      "institution": "Ho Chi Minh City University of Education, HCMC",
       "location": "Vietnam",
       "url": "https://hcmue.edu.vn",
-      "studyType": "Bachelor of Psychology",
-      "startDate": "2020",
-      "endDate": "2024",
-      "score": "9.0/10.0",
-      "thesis": "Attitudes Toward Seeking Professional Psychological Help Among Students with Adverse Childhood Experiences in Ho Chi Minh City",
-      "thesisUrl": "https://dlib.hcmue.edu.vn/entities/publication/4ee0378f-d982-4ba1-b4ce-3a383ecf698c", 
-      "advisor": "MSc. Hoai-Duc Huynh-Tran"
+      "studyType": "B.A in Psychology",
+      "startDate": "2019",
+      "endDate": "2023",
     },
     {
-      "institution": "Phan Ngoc Hien High School for the Gifted, Ca Mau Province",
+      "institution": "Nguyen Thien Thanh High School for the Gifted, Tra Vinh Province",
       "location": "Vietnam",
       "area": "",
       "studyType": "High School",
-      "startDate": "2017",
-      "endDate": "2020"
+      "startDate": "2016",
+      "endDate": "2019"
     }
   ],
   "work": [
-    {
-      "name": "Hoa Sung Psychology Consultation Company Limited",
-      "position": "Counseling and Psychotherapy Trainee",
-      "url": "",
-      "startDate": "2024-06",
-      "endDate": "2024-12",
-      "summary": "Received intensive training in psychological counseling skills and practiced Cognitive Behavioral Therapy (CBT).",
-      "highlights": []
-    },
-    {
-      "name": "Ho Chi Minh City Regional Center of Forensic Psychiatry",
-      "position": "Clinical Psychology Intern",
-      "url": "",
-      "startDate": "2023-01-01",
-      "endDate": "2024-02-28",
-      "summary": "Gained experience through observation and training in the use of psychological assessment tools, including MMPI, MMSE, HAM-A/D, and Wechsler scales.",
-      "highlights": []
-    },
-    {
-      "name": "InPsychOut Company Limited",
-      "position": "Psychology Academic Content Leader",
-      "url": "",
-      "startDate": "2022-03-01",
-      "endDate": "2024-03-01",
-      "summary": "Directed content teams and implemented academic psychology content to enhance community awareness of mental health.",
-      "highlights": []
-    }
+  {
+    "name": "PhD. Vinh-Long Tran-Chi’s Psychological Scientific Research Laboratory",
+    "position": "Research Assistant",
+    "url": "",
+    "startDate": "2021",
+    "endDate": "Present",
+    "summary": "Worked as a Research Assistant under the supervision of Mr. Vinh-Long Tran-Chi, Lecturer in the Faculty of Psychology, Ho Chi Minh City University of Education, Vietnam, and Ph.D. Candidate in Clinical Science, Faculty of Medicine, Chulalongkorn University, Thailand.",
+    "highlights": []
+  },
+  {
+    "name": "Taiwan Experience Education Program (TEEP), Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University",
+    "position": "Neuroscience Intern Student",
+    "url": "",
+    "startDate": "2023-04",
+    "endDate": "2023-09",
+    "summary": "Participated in “The Nature of Mind and Brain – A Multimodal Neuroscience Approach” through the Taiwan Experience Education Program (TEEP), Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University, Taipei City, Taiwan.",
+    "highlights": []
+  },
+  {
+    "name": "Southern Vietnam HIV and Addiction Treatment Technology Transfer Center (SVHATTC), University of Medicine and Pharmacy",
+    "position": "Intern",
+    "url": "",
+    "startDate": "2023-01",
+    "endDate": "2023-03",
+    "summary": "Completed an internship at the Southern Vietnam HIV and Addiction Treatment Technology Transfer Center (SVHATTC), University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam.",
+    "highlights": []
+  },
+  {
+    "name": "Department of Psychosomatic Medicine, Thu Duc City Hospital",
+    "position": "Clinical Psychology Intern",
+    "url": "",
+    "startDate": "2022-02",
+    "endDate": "2022-05",
+    "summary": "Completed a clinical psychology internship at the Department of Psychosomatic Medicine, Thu Duc City Hospital, Ho Chi Minh City, Vietnam.",
+    "highlights": []
+  }
+]
   ],
   "volunteer": [],
   "memberships": [
