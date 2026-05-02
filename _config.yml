@@ -262,8 +262,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Le]
-  first_name: [Vy Truc]
+  last_name: [Nguyen-Duong]
+  first_name: [Bao-Tran]
 
   style: apa
   locale: en
