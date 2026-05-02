@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: vytrucle.judy@gmail.com
+subtitle: baotranpsy@gmail.com
 
 profile:
   align: right
