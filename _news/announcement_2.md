@@ -1,7 +1,7 @@
 ---
 layout: none
-title: "One paper accepted to Journal of Curriculum and Teaching"
-date: 2023-12-01
+title: "Accepted as a Clinical Psychology intern at <span style='color: #d880d3;'>Thu Duc City Hospital</span>"
+date: 2022-02-01
 inline: true
 ---
-One paper accepted to Journal of Curriculum and Teaching.
+Accepted as a Clinical Psychology intern at the Department of Psychosomatic Medicine, <span style='color: #d880d3;'>Thu Duc City Hospital</span>, Ho Chi Minh City, Vietnam.

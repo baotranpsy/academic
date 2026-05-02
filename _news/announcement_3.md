@@ -1,7 +1,7 @@
 ---
 layout: none
-title: "Successfully defended the bachelor graduation thesis with a score of 9.0/10.0 at Ho Chi Minh University of Education"
-date: 2024-04-01
+title: "Accepted to <span style='color: #d880d3;'>Vietnam Summer School of Science cohort 2022</span>"
+date: 2022-08-01
 inline: true
 ---
- Successfully defended the bachelor graduation thesis with a score of 9.0/10.0 at Ho Chi Minh University of Education.  
+Accepted to Vietnam Summer School of Science cohort 2022, entitled “Stories of Life,” at the International Centre for Interdisciplinary Science and Education (ICISE), Binh Dinh Province, Vietnam.
