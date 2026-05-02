@@ -3,12 +3,12 @@
     <li class="list-group-item">
       <div class="row">
         {% if content.year %}
-          <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
+          <div class="date-column">
             <table class="table-cv">
               <tbody>
                 <tr>
                   <td>
-                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
                       {{- content.year -}}
                     </span>
                   </td>
@@ -27,12 +27,14 @@
             </table>
           </div>
         {% endif %}
-        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+
+        <div class="cv-content">
           {% if content.title %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ content.title }}</h6>
+            <h6 class="title font-weight-bold">{{ content.title }}</h6>
           {% endif %}
+
           {% if content.department or content.institution %}
-            <table class="table-cv ml-1 ml-md-4 institution">
+            <table class="table-cv institution">
               <tbody>
                 {% if content.institution %}
                   <tr>
@@ -53,9 +55,11 @@
               </tbody>
             </table>
           {% endif %}
+
           {% if content.maindescription %}
-            <div class="ml-1 ml-md-4">{{ content.maindescription }}</div>
+            <div>{{ content.maindescription }}</div>
           {% endif %}
+
           {% if content.description %}
             <ul class="items">
               {% for item in content.description %}
@@ -76,6 +80,7 @@
               {% endfor %}
             </ul>
           {% endif %}
+
           {% if content.items %}
             <ul class="items">
               {% for item in content.items %}
@@ -96,8 +101,9 @@
               {% endfor %}
             </ul>
           {% endif %}
+
           {% if content.linkitems %}
-            <div class="container-links ml-1 ml-md-4">
+            <div class="container-links">
               {% for item in content.linkitems %}
                 {% if item.link %}
                   <div class="container-link-button">

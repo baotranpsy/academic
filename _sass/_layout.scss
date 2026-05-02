@@ -153,27 +153,44 @@ body.sticky-bottom-footer {
 
 .cv {
   .list-group-item .row {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    column-gap: 28px;
     align-items: flex-start;
   }
 
   .date-column {
-    flex: 0 0 190px;
-    max-width: 190px;
+    width: 220px;
+    max-width: 220px;
     text-align: left !important;
   }
 
   .date-column + div {
-    flex: 1;
-    max-width: calc(100% - 190px);
+    width: 100%;
+    max-width: 100%;
   }
 
   .date-column .badge {
-    min-width: 150px !important;
-    max-width: 175px;
-    padding: 0.35rem 0.55rem;
+    display: inline-block;
+    min-width: 165px !important;
+    max-width: 200px;
+    padding: 0.38rem 0.55rem;
     white-space: normal;
     text-align: center;
+    line-height: 1.2;
+  }
+
+  .date-column .location {
+    margin-top: 0.45rem;
+    margin-bottom: 0;
+    color: var(--global-text-color-light);
+    font-size: 0.82rem;
     line-height: 1.25;
+  }
+
+  .date-column .iconlocation {
+    margin-right: 0.25rem;
+    color: #d880d3;
   }
 
   .date-column + div h6.title,
@@ -184,15 +201,14 @@ body.sticky-bottom-footer {
   }
 
   @media (max-width: 767px) {
-    .date-column {
-      flex: 0 0 100%;
-      max-width: 100%;
-      margin-bottom: 0.6rem;
+    .list-group-item .row {
+      display: block;
     }
 
-    .date-column + div {
-      flex: 0 0 100%;
+    .date-column {
+      width: 100%;
       max-width: 100%;
+      margin-bottom: 0.65rem;
     }
 
     .date-column .badge {
