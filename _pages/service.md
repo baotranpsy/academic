@@ -9,7 +9,6 @@ nav_order: 3
 
 ## Journal Reviewer for
 
-- Social Sciences & Humanities Open (h-index=33)
-- International Journal of Mental Health Promotion (h-index=16)
+- Frontiers in Psychology (h-index=241)
 - BMC Psychology (h-index=49)
-- Discover Psychology (h-index=9)
+
