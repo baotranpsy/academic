@@ -47,22 +47,7 @@
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
-    <!-- Publication meta -->
-    <div class="pub-heading">
-      {% if entry.abbr %}
-        {% if site.data.venues[entry.abbr] and site.data.venues[entry.abbr].url %}
-          <a class="pub-abbr" href="{{ site.data.venues[entry.abbr].url }}" target="_blank" rel="noopener">
-            {{ entry.abbr }}
-          </a>
-        {% else %}
-          <span class="pub-abbr">{{ entry.abbr }}</span>
-        {% endif %}
-      {% endif %}
-
-      {% if entry.year %}
-        <span class="pub-year">{{ entry.year }}</span>
-      {% endif %}
-    </div>
+  
 
     <!-- Title -->
     <div class="title pub-title">{{ entry.title }}</div>
