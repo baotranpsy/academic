@@ -1423,3 +1423,19 @@ figure.cover {
     color: #23212d !important;
   }
 }
+// Conference publication styling
+
+.publication-card.pub-inproceedings {
+  border-left-color: #0f9f8f !important;
+  background: rgba(15, 159, 143, 0.07) !important;
+}
+
+.publication-card.pub-inproceedings .abbr .badge {
+  background-color: #0f9f8f !important;
+}
+
+.publication-card.pub-inproceedings .pub-keyword {
+  border-color: rgba(15, 159, 143, 0.35) !important;
+  color: #08786d !important;
+  background: rgba(15, 159, 143, 0.06) !important;
+}
