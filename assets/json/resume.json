@@ -177,7 +177,27 @@
       }
     ]
   }
-]
+],
+"certificates": [
+  {
+    "name": "Applied Positive Psychology",
+    "date": "June 2022 - July 2022",
+    "issuer": "Vietnam Psychotherapy Association",
+    "summary": "Taught by Prof. Edward Hoffman."
+  },
+  {
+    "name": "Human Research for Biomedical Research",
+    "date": "January 2023",
+    "issuer": "CITI Program",
+    "summary": "Course completed under requirements set by University of North Carolina at Chapel Hill."
+  },
+  {
+    "name": "Basic Statistics in Social Sciences and Educational Science Research",
+    "date": "June 2023 - July 2023",
+    "issuer": "Center for Research and Training of Teachers, Educational Managers, University of Education - University of Danang, Vietnam",
+    "summary": ""
+  }
+],
   "interests": [
     {
       "name": "Neuroscience",
@@ -195,5 +215,15 @@
         "Counseling and psychotherapy"
       ]
     }
-  ]
+  ],
+"references": [
+  {
+    "name": "Ph.D. Vinh-Long Tran-Chi",
+    "reference": "Lecturer at University of Health Sciences, Viet Nam National University, Ho Chi Minh City (USH), Vietnam. Research Associate at the Department of Psychological Medicine, Yong Loo Lin School of Medicine, National University of Singapore (NUS), Singapore. Email: tcvlong@uhsvnu.edu.vn"
+  },
+  {
+    "name": "Associate Professor Niall Duncan",
+    "reference": "Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University, Taiwan. Email: nwduncan@tmu.edu.tw"
+  }
+]
 }

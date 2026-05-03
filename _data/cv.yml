@@ -103,3 +103,55 @@
       description:
         - Incentive for Participation and Awards in High School Olympiads - $500 estimated total value.
 
+
+- title: Selected Certificates
+  type: time_table
+  contents:
+    - title: Applied Positive Psychology
+      year: June 2022 - July 2022
+      description:
+        - Vietnam Psychotherapy Association, taught by Prof. Edward Hoffman.
+
+    - title: Human Research for Biomedical Research
+      year: January 2023
+      description:
+        - CITI Program course under requirements set by University of North Carolina at Chapel Hill.
+
+    - title: Basic Statistics in Social Sciences and Educational Science Research
+      year: June 2023 - July 2023
+      description:
+        - Center for Research and Training of Teachers, Educational Managers, University of Education - University of Danang, Vietnam.
+
+
+- title: References
+  type: time_table
+  contents:
+    - title: Ph.D. Vinh-Long Tran-Chi
+      year: Reference
+      description:
+        - Lecturer at University of Health Sciences, Viet Nam National University, Ho Chi Minh City (USH), Vietnam.
+        - Research Associate at the Department of Psychological Medicine, Yong Loo Lin School of Medicine, National University of Singapore (NUS), Singapore.
+        - "Email: tcvlong@uhsvnu.edu.vn"
+
+    - title: Associate Professor Niall Duncan
+      year: Reference
+      description:
+        - Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University, Taiwan.
+        - "Email: nwduncan@tmu.edu.tw"
+
+
+- title: Interests
+  type: nested_list
+  contents:
+    - title: Neuroscience
+      items:
+        - Brain states
+        - Neural mechanisms
+        - Multimodal neuroscience approaches
+
+    - title: Mental Health
+      items:
+        - Psychological assessment
+        - Clinical psychology
+        - Counseling and psychotherapy
+
