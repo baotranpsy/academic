@@ -99,17 +99,17 @@
 
   .card .list-group-item > .row {
     display: grid;
-    grid-template-columns: 120px minmax(0, 1fr);
-    column-gap: 22px;
+    grid-template-columns: 112px minmax(0, 1fr);
+    column-gap: 18px;
     align-items: flex-start;
     margin-left: 0;
     margin-right: 0;
   }
 
   .card .list-group-item > .row > .date-column {
-    width: 120px;
-    max-width: 120px;
-    padding-left: 10px;
+    width: 112px;
+    max-width: 112px;
+    padding-left: 0;
     text-align: left !important;
   }
 
@@ -117,35 +117,36 @@
     width: 100%;
     max-width: 100%;
     min-width: 0;
+    font-size: 0.92rem;
   }
 
-.card .list-group-item > .row > .date-column .badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 132px;
-  min-width: 132px !important;
-  min-height: 38px;
-  padding: 0.35rem 0.75rem;
-  white-space: normal;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 0.76rem;
-  border-radius: 0.55rem;
+  .card .list-group-item > .row > .date-column .badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 112px;
+    min-width: 112px !important;
+    min-height: 40px;
+    padding: 0.28rem 0.45rem;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.18;
+    font-size: 0.66rem;
+    letter-spacing: 0;
+    border-radius: 0.45rem;
 
-  background-color: rgba(199, 0, 199, 0.14) !important;
-  color: #a000a8 !important;
-  border: 1px solid rgba(199, 0, 199, 0.22);
-  box-shadow: none;
-}
-
+    background-color: rgba(199, 0, 199, 0.14) !important;
+    color: #a000a8 !important;
+    border: 1px solid rgba(199, 0, 199, 0.22);
+    box-shadow: none;
+  }
 
   .card .list-group-item > .row > .date-column .location {
     width: 112px;
     margin-top: 0.35rem;
     margin-bottom: 0;
     color: var(--global-text-color-light);
-    font-size: 0.76rem;
+    font-size: 0.72rem;
     line-height: 1.25;
     white-space: normal;
   }
@@ -156,8 +157,9 @@
   }
 
   .card .list-group-item > .row > .cv-content h6.title {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.45rem;
     line-height: 1.25;
+    font-size: 1rem;
   }
 
   .card .list-group-item > .row > .cv-content .institution {
@@ -174,6 +176,13 @@
   .card .list-group-item > .row > .cv-content ul,
   .card .list-group-item > .row > .cv-content table {
     margin-left: 0 !important;
+  }
+
+  .card .list-group-item > .row > .cv-content p,
+  .card .list-group-item > .row > .cv-content li,
+  .card .list-group-item > .row > .cv-content td {
+    font-size: 0.92rem;
+    line-height: 1.45;
   }
 
   @media (max-width: 767px) {
@@ -193,6 +202,10 @@
       width: auto;
       min-width: 0 !important;
       max-width: 100%;
+    }
+
+    .card .list-group-item > .row > .date-column .badge {
+      min-height: 0;
     }
   }
 
