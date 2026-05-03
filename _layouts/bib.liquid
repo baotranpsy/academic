@@ -3,35 +3,39 @@
 <div class="row publication-card pub-{{ entry.type | downcase }}">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
-      {%- if entry.abbr -%}
-        {% if entry.type == 'inproceedings' %}
-          <abbr class="badge rounded w-100 conference-badge">
-            <span class="conference-label">Conference</span>
-            {% if entry.location %}
-              <span class="conference-location">{{ entry.location }}</span>
+      {% if entry.type == 'inproceedings' %}
+        <abbr class="badge rounded w-100 conference-badge">
+          <span class="conference-label">Conference</span>
+          {% if entry.location %}
+            <span class="conference-location">{{ entry.location }}</span>
+          {% elsif entry.address %}
+            <span class="conference-location">{{ entry.address }}</span>
+          {% endif %}
+        </abbr>
+      {% elsif entry.type == 'article' %}
+        <abbr class="badge rounded w-100 paper-badge">
+          <span class="paper-label">Paper</span>
+        </abbr>
+      {% elsif entry.abbr %}
+        {%- if site.data.venues[entry.abbr] -%}
+          {% assign venue_style = null %}
+          {% if site.data.venues[entry.abbr].color != blank %}
+            {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
+          {%- endif -%}
+          <abbr
+            class="badge rounded w-100"
+            {% if venue_style %}
+              {{ venue_style }}
+            {% endif -%}
+          >
+            {% if site.data.venues[entry.abbr].url %}
+              <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
+            {% else %}
+              <div>{{- entry.abbr -}}</div>
             {% endif %}
           </abbr>
         {% else %}
-          {%- if site.data.venues[entry.abbr] -%}
-            {% assign venue_style = null %}
-            {% if site.data.venues[entry.abbr].color != blank %}
-              {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
-            {%- endif -%}
-            <abbr
-              class="badge rounded w-100"
-              {% if venue_style %}
-                {{ venue_style }}
-              {% endif -%}
-            >
-              {% if site.data.venues[entry.abbr].url %}
-                <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
-              {% else %}
-                <div>{{- entry.abbr -}}</div>
-              {% endif %}
-            </abbr>
-          {% else %}
-            <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
-          {% endif %}
+          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
       {% if entry.preview %}
@@ -53,7 +57,6 @@
       {% endif %}
     </div>
   {% endif %}
-
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
@@ -181,6 +184,8 @@
     {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
+    {% elsif entry.address %}
+      {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.address }}{% endcapture %}
     {% endif -%}
     {% if entry.additional_info %}
       {% capture entrytype %}{{ entrytype }}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
