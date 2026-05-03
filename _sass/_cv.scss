@@ -132,7 +132,13 @@
   line-height: 1.15;
   font-size: 0.76rem;
   border-radius: 0.55rem;
+
+  background-color: rgba(199, 0, 199, 0.14) !important;
+  color: #a000a8 !important;
+  border: 1px solid rgba(199, 0, 199, 0.22);
+  box-shadow: none;
 }
+
 
   .card .list-group-item > .row > .date-column .location {
     width: 112px;
