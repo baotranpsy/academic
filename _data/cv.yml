@@ -15,13 +15,14 @@
   contents:
     - title: Master’s Program
       institution: Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University, Taipei, Taiwan
-      year: 2025 - Present
+      year: 2025 -<br>Present
       description:
         - Recipient of a NT$12,000 scholarship.
         - Affiliated with The Brain State Lab.
+
     - title: Bachelor’s Degree in Psychology
       institution: Ho Chi Minh City University of Education, Ho Chi Minh City, Vietnam
-      year: 2019 - 2024
+      year: 2019 -<br>2024
       description:
         - Studied in the Psychology program.
         - Conducted academic work primarily centered on mental health.
@@ -31,23 +32,26 @@
   type: time_table
   contents:
     - title: Research Assistant
-      institution: PhD. Vinh-Long Tran-Chi’s Psychological Scientific Research Laboratory
-      year: 2021 - Present
+      institution: Ph.D. Vinh-Long Tran-Chi’s Psychological Scientific Research Laboratory
+      year: 2021 -<br>Present
       description:
-        - Worked under the supervision of PhD. Vinh-Long Tran-Chi, Lecturer in the Faculty of Psychology, Ho Chi Minh City University of Education, Vietnam.
+        - Worked under the supervision of Ph.D. Vinh-Long Tran-Chi, Lecturer in the Faculty of Psychology, Ho Chi Minh City University of Education, Vietnam.
+
     - title: Neuroscience Intern Student
       institution: Taiwan Experience Education Program (TEEP), Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University, Taipei City, Taiwan
-      year: Apr 2023 - Sep 2023
+      year: Apr 2023 -<br>Sep 2023
       description:
         - Participated in “The Nature of Mind and Brain – A Multimodal Neuroscience Approach.”
+
     - title: Intern
       institution: Southern Vietnam HIV and Addiction Treatment Technology Transfer Center (SVHATTC), University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam
-      year: Jan 2023 - Mar 2023
+      year: Jan 2023 -<br>Mar 2023
       description:
         - Completed an internship at SVHATTC.
+
     - title: Clinical Psychology Intern
       institution: Department of Psychosomatic Medicine, Thu Duc City Hospital, Ho Chi Minh City, Vietnam
-      year: Feb 2022 - May 2022
+      year: Feb 2022 -<br>May 2022
       description:
         - Completed a clinical psychology internship.
 
@@ -56,12 +60,13 @@
   contents:
     - title: Content Collaborator
       institution: PsyCancer Talk - Psychosocial Project, Vietnam
-      year: May 2023
+      year: May<br>2023
       description:
         - Participated in the PsyCancer Talk - Psychosocial project aimed at raising awareness and supporting the mental health of communities affected by cancer in Vietnam.
+
     - title: Volunteer
       institution: “Care to Rise” Program, Ho Chi Minh City, Vietnam
-      year: February 2022
+      year: Feb<br>2022
       description:
         - Participated in Health Examinations for Children Affected by COVID-19 in Ho Chi Minh City.
         - Assisted with preliminary assessment for children affected by COVID-19 at the Psychological Counseling Area in the program.
@@ -74,62 +79,63 @@
       year: 2025
       description:
         - Invited to serve as a reviewer for BMC Psychology and Frontiers in Psychology.
+
     - title: Vietnam Summer School of Science 2023
       institution: International Centre for Interdisciplinary Science and Education (ICISE), Binh Dinh Province, Vietnam
       year: 2023
       description:
         - Participated in Vietnam Summer School of Science 2023, entitled “Embracing the Past, Shaping the Future.”
+
     - title: Vietnam Summer School of Science cohort 2022
       institution: International Centre for Interdisciplinary Science and Education (ICISE), Binh Dinh Province, Vietnam
       year: 2022
       description:
         - Participated in Vietnam Summer School of Science cohort 2022, entitled “Stories of Life.”
 
-
 - title: Grants and Fellowships
   type: time_table
   contents:
     - title: In M.S. Program
-      year: 2025 - Present
+      year: 2025 -<br>Present
       description:
         - NT$12,000 scholarship, Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University.
+
     - title: In B.A. Program
-      year: 2019 - 2023
+      year: 2019 -<br>2023
       description:
         - Ho Chi Minh City University of Education Merit Scholarship - $1,500 estimated total value.
         - The Student Scientific Research Award – Euréka in Ho Chi Minh City, Vietnam - $400 estimated total value.
+
     - title: In High School
-      year: 2016 - 2019
+      year: 2016 -<br>2019
       description:
         - Incentive for Participation and Awards in High School Olympiads - $500 estimated total value.
-
 
 - title: Selected Certificates
   type: time_table
   contents:
     - title: Applied Positive Psychology
-      year: June 2022 - July 2022
+      year: Jun 2022 -<br>Jul 2022
       description:
         - Vietnam Psychotherapy Association, taught by Prof. Edward Hoffman.
 
     - title: Human Research for Biomedical Research
-      year: January 2023
+      year: Jan<br>2023
       description:
         - CITI Program course under requirements set by University of North Carolina at Chapel Hill.
 
     - title: Basic Statistics in Social Sciences and Educational Science Research
-      year: June 2023 - July 2023
+      year: Jun 2023 -<br>Jul 2023
       description:
         - Center for Research and Training of Teachers, Educational Managers, University of Education - University of Danang, Vietnam.
-
 
 - title: References
   type: time_table
   contents:
-    - title: Ph.D Niall Duncan
+    - title: Associate Professor Niall Duncan
       year: Reference
       description:
-        - Associate Professor at Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University, Taiwan.
+        - Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University, Taiwan.
         - "Email: nwduncan@tmu.edu.tw"
 
     - title: Ph.D. Vinh-Long Tran-Chi
@@ -138,7 +144,6 @@
         - Lecturer at University of Health Sciences, Viet Nam National University, Ho Chi Minh City (USH), Vietnam.
         - Research Associate at the Department of Psychological Medicine, Yong Loo Lin School of Medicine, National University of Singapore (NUS), Singapore.
         - "Email: tcvlong@uhsvnu.edu.vn"
-
 
 - title: Interests
   type: nested_list
@@ -154,4 +159,3 @@
         - Psychological assessment
         - Clinical psychology
         - Counseling and psychotherapy
-
