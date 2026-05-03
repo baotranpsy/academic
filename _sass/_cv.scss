@@ -120,18 +120,19 @@
   }
 
 .card .list-group-item > .row > .date-column .badge {
-  display: inline-block;
-  width: auto;
-  min-width: 0 !important;
-  max-width: 112px;
-  padding: 0.36rem 0.7rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 132px;
+  min-width: 132px !important;
+  min-height: 38px;
+  padding: 0.35rem 0.75rem;
   white-space: normal;
   text-align: center;
   line-height: 1.15;
   font-size: 0.76rem;
-  border-radius: 999px;
+  border-radius: 0.55rem;
 }
-
 
   .card .list-group-item > .row > .date-column .location {
     width: 112px;
