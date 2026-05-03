@@ -99,7 +99,7 @@
 
   .card .list-group-item > .row {
     display: grid;
-    grid-template-columns: 112px minmax(0, 1fr);
+    grid-template-columns: 132px minmax(0, 1fr);
     column-gap: 18px;
     align-items: flex-start;
     margin-left: 0;
@@ -107,9 +107,9 @@
   }
 
   .card .list-group-item > .row > .date-column {
-    width: 112px;
-    max-width: 112px;
-    padding-left: 0;
+    width: 132px;
+    max-width: 132px;
+    padding-left: 14px;
     text-align: left !important;
   }
 
