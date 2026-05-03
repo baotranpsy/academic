@@ -1434,6 +1434,33 @@ figure.cover {
   background-color: #0f9f8f !important;
 }
 
+.publication-card.pub-inproceedings .conference-badge {
+  display: flex !important;
+  flex-direction: column;
+  gap: 0.15rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.4rem;
+  padding: 0.45rem 0.35rem;
+  white-space: normal;
+  line-height: 1.15;
+  text-align: center;
+  background-color: #0f9f8f !important;
+}
+
+.publication-card.pub-inproceedings .conference-label {
+  color: #ffffff !important;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.publication-card.pub-inproceedings .conference-location {
+  color: #e7fffb !important;
+  font-size: 0.72rem;
+  font-weight: 500;
+}
+
 .publication-card.pub-inproceedings .pub-keyword {
   border-color: rgba(15, 159, 143, 0.35) !important;
   color: #08786d !important;
