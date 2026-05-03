@@ -2,7 +2,7 @@
 layout: page
 permalink: /service/
 title: service
-description: I have actively contributed as a peer reviewer for multiple international academic journals, critically evaluating manuscripts and providing constructive feedback to support the advancement of research in psychology, and social sciences.
+description: I have actively contributed as a peer reviewer for multiple international academic journals, critically evaluating manuscripts and providing constructive feedback to advance research in psychology and mental health.
 nav: true
 nav_order: 3
 ---
