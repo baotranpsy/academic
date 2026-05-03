@@ -1466,3 +1466,19 @@ figure.cover {
   color: #08786d !important;
   background: rgba(15, 159, 143, 0.06) !important;
 }
+.publication-card.pub-article .paper-badge {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  min-height: 2rem;
+  padding: 0.45rem 0.35rem;
+  text-align: center;
+  background-color: var(--global-theme-color) !important;
+}
+
+.publication-card.pub-article .paper-label {
+  color: #ffffff !important;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
