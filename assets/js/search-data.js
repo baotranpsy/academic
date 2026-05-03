@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-service",
           title: "service",
-          description: "I have actively contributed as a peer reviewer for multiple international academic journals, critically evaluating manuscripts and providing constructive feedback to support the advancement of research in psychology, and social sciences.",
+          description: "I have actively contributed as a peer reviewer for multiple international academic journals, critically evaluating manuscripts and providing constructive feedback to advance research in psychology and mental health.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/academic/service/";
