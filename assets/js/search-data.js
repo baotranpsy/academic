@@ -416,7 +416,7 @@ ninja.data = [{
           section: "News",},{id: "news-accepted-to-vietnam-summer-school-of-science-2023-entitled-embracing-the-past-shaping-the-future-at-the-international-centre-for-interdisciplinary-science-and-education-icise-binh-dinh-province-vietnam",
           title: 'Accepted to Vietnam Summer School of Science 2023, entitled “Embracing the Past, Shaping...',
           description: "",
-          section: "News",},{id: "news-admitted-to-a-master-s-program-at-the-graduate-institute-of-mind-brain-and-consciousness-gimbc-taipei-medical-university-taipei-taiwan-with-a-nt-12-000-scholarship",
+          section: "News",},{id: "news-admitted-to-a-master-s-program-at-the-graduate-institute-of-mind-brain-and-consciousness-gimbc-taipei-medical-university-taipei-taiwan-with-a-scholarship-covering-full-tuition",
           title: 'Admitted to a master’s program at the Graduate Institute of Mind, Brain and...',
           description: "",
           section: "News",},{id: "projects-project-1",
