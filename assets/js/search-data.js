@@ -16,12 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/academic/publications/";
           },
-        },{id: "nav-service",
-          title: "service",
-          description: "I have actively contributed as a peer reviewer for multiple international academic journals, critically evaluating manuscripts and providing constructive feedback to advance research in psychology and mental health.",
+        },{id: "nav-metrics",
+          title: "metrics",
+          description: "Google Scholar metrics.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/academic/service/";
+            window.location.href = "/academic/metrics/";
           },
         },{id: "nav-cv",
           title: "cv",
