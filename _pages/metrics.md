@@ -12,17 +12,17 @@ This page highlights my Google Scholar citation metrics and research visibility.
 
 <div class="scholar-metrics">
   <a class="metric-card" href="https://scholar.google.com/citations?user=fn3BgTkAAAAJ&hl=en" target="_blank" rel="noopener">
-    <div class="metric-number">XX</div>
+    <div class="metric-number">104</div>
     <div class="metric-label">Citations</div>
   </a>
 
   <a class="metric-card" href="https://scholar.google.com/citations?user=fn3BgTkAAAAJ&hl=en" target="_blank" rel="noopener">
-    <div class="metric-number">XX</div>
+    <div class="metric-number">6</div>
     <div class="metric-label">h-index</div>
   </a>
 
   <a class="metric-card" href="https://scholar.google.com/citations?user=fn3BgTkAAAAJ&hl=en" target="_blank" rel="noopener">
-    <div class="metric-number">XX</div>
+    <div class="metric-number">3</div>
     <div class="metric-label">i10-index</div>
   </a>
 </div>
