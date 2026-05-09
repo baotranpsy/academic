@@ -17,19 +17,23 @@ This page summarizes my citation metrics based on my
       <tr>
         <th></th>
         <th>All</th>
+        <th>Since 2021</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Citations</td>
         <td>XX</td>
+        <td>XX</td>
       </tr>
       <tr>
         <td>h-index</td>
         <td>XX</td>
+        <td>XX</td>
       </tr>
       <tr>
         <td>i10-index</td>
+        <td>XX</td>
         <td>XX</td>
       </tr>
     </tbody>
