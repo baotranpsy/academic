@@ -1482,44 +1482,55 @@ figure.cover {
   font-weight: 700;
   text-transform: uppercase;
 }
-// Scholar metrics table
+// Scholar metrics
 
-.scholar-table-wrapper {
-  max-width: 360px;
+.scholar-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
   margin: 2rem 0;
 }
 
-.scholar-table {
-  width: 100%;
-  border-collapse: collapse;
-  background-color: var(--global-bg-color);
+.metric-card {
+  display: block;
+  padding: 1.25rem 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  background-color: var(--global-card-bg-color);
+  text-align: center;
+  text-decoration: none !important;
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
 
-  th,
-  td {
-    padding: 0.55rem 0.75rem;
-    border-bottom: 1px solid var(--global-divider-color);
-    font-size: 1rem;
+  &:hover {
+    transform: translateY(-2px);
+    border-color: var(--global-theme-color);
+    text-decoration: none !important;
   }
+}
 
-  th {
-    color: var(--global-text-color-light);
-    font-weight: 500;
-    text-align: right;
-  }
+.metric-number {
+  color: var(--global-theme-color);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
 
-  td:first-child {
-    color: var(--global-text-color);
-    text-align: left;
-  }
-
-  td:last-child {
-    color: var(--global-theme-color);
-    font-weight: 600;
-    text-align: right;
-  }
+.metric-label {
+  margin-top: 0.4rem;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
 }
 
 .metric-updated {
   color: var(--global-text-color-light);
   font-size: 0.9rem;
+}
+
+@media (max-width: 576px) {
+  .scholar-metrics {
+    grid-template-columns: 1fr;
+  }
 }
