@@ -63,9 +63,19 @@ Places that have shaped my academic and personal journey.
 
   const places = [
     {
+      name: "Tra Vinh, Vietnam",
+      note: "Born and raised",
+      coords: [9.9347, 106.3453],
+    },
+    {
       name: "Ho Chi Minh City, Vietnam",
       note: "Bachelor's degree in Psychology",
       coords: [10.7769, 106.7009],
+    },
+    {
+      name: "Binh Dinh, Vietnam",
+      note: "Academic workshop",
+      coords: [13.782, 109.219],
     },
     {
       name: "Taipei, Taiwan",
