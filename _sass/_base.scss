@@ -1482,3 +1482,55 @@ figure.cover {
   font-weight: 700;
   text-transform: uppercase;
 }
+// Scholar metrics
+
+.scholar-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.metric-card {
+  display: block;
+  padding: 1.25rem 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  background-color: var(--global-card-bg-color);
+  text-align: center;
+  text-decoration: none !important;
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: var(--global-theme-color);
+    text-decoration: none !important;
+  }
+}
+
+.metric-number {
+  color: var(--global-theme-color);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.metric-label {
+  margin-top: 0.4rem;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+}
+
+.metric-updated {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 576px) {
+  .scholar-metrics {
+    grid-template-columns: 1fr;
+  }
+}
