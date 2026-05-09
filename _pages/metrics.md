@@ -36,36 +36,53 @@ Metrics are based on my
 Last updated: May 2026
 </p>
 
-<h2>Research Footprint</h2>
+<h2>Footprint</h2>
 
-<div class="research-footprint">
-  <div class="footprint-item">
-    <span class="footprint-dot"></span>
-    <div>
-      <h3>Mental Health</h3>
-      <p>
-        Earlier academic work focused on mental health, psychological help-seeking, and adverse childhood experiences.
-      </p>
-    </div>
-  </div>
+<p>
+Places that have shaped my academic and personal journey.
+</p>
 
-  <div class="footprint-item">
-    <span class="footprint-dot"></span>
-    <div>
-      <h3>Neuroscience</h3>
-      <p>
-        Current research interests center on neuroscience, with a particular focus on brain states and their underlying neural mechanisms.
-      </p>
-    </div>
-  </div>
+<div id="footprint-map"></div>
 
-  <div class="footprint-item">
-    <span class="footprint-dot"></span>
-    <div>
-      <h3>Research Collaboration</h3>
-      <p>
-        Ongoing work is shaped by collaborative research projects and affiliation with The Brain State Lab.
-      </p>
-    </div>
-  </div>
-</div>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+  const footprintMap = L.map("footprint-map", {
+    scrollWheelZoom: false,
+  }).setView([18, 113], 4);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 18,
+    attribution: "&copy; OpenStreetMap contributors",
+  }).addTo(footprintMap);
+
+  const places = [
+    {
+      name: "Ho Chi Minh City, Vietnam",
+      note: "Bachelor's degree in Psychology",
+      coords: [10.7769, 106.7009],
+    },
+    {
+      name: "Taipei, Taiwan",
+      note: "Master's study at Taipei Medical University",
+      coords: [25.033, 121.5654],
+    },
+  ];
+
+  places.forEach((place) => {
+    L.circleMarker(place.coords, {
+      radius: 8,
+      color: "#2f72b7",
+      weight: 2,
+      fillColor: "#6fa8dc",
+      fillOpacity: 0.85,
+    })
+      .addTo(footprintMap)
+      .bindPopup(`<strong>${place.name}</strong><br>${place.note}`);
+  });
+</script>

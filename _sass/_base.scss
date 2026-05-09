@@ -1535,37 +1535,23 @@ figure.cover {
   }
 }
 
-// Research footprint
+// Footprint map
 
-.research-footprint {
-  margin-top: 1.5rem;
-  display: grid;
-  gap: 1rem;
+#footprint-map {
+  width: 100%;
+  height: 430px;
+  margin: 1.5rem 0 2rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
-.footprint-item {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 0.9rem;
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--global-divider-color);
-
-  h3 {
-    margin-bottom: 0.35rem;
-    font-size: 1.1rem;
-    font-weight: 500;
-  }
-
-  p {
-    margin-bottom: 0;
-    color: var(--global-text-color-light);
-  }
+.leaflet-popup-content {
+  color: #222;
 }
 
-.footprint-dot {
-  width: 0.7rem;
-  height: 0.7rem;
-  margin-top: 0.45rem;
-  border-radius: 50%;
-  background-color: var(--global-theme-color);
+@media (max-width: 576px) {
+  #footprint-map {
+    height: 320px;
+  }
 }
