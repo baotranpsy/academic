@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-metrics",
           title: "metrics",
-          description: "Google Scholar metrics.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/academic/metrics/";
