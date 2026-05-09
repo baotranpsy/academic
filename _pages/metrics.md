@@ -36,7 +36,7 @@ Metrics are based on my
 Last updated: May 2026
 </p>
 
-<h2>Footprint</h2>
+<h2>footprint</h2>
 
 <p>
 Places that have shaped my academic and personal journey.
