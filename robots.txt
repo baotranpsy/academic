@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://vytrucle-02.github.io/academic/sitemap.xml
+Sitemap: https://baotranpsy.github.io/academic/sitemap.xml
