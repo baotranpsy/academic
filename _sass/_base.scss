@@ -1482,21 +1482,54 @@ figure.cover {
   font-weight: 700;
   text-transform: uppercase;
 }
-// Scholar metrics
+// Metrics page
+
+.metrics-lead {
+  max-width: 760px;
+  margin-bottom: 2rem;
+  color: var(--global-text-color-light);
+  font-size: 1.05rem;
+}
+
+.section-heading {
+  position: relative;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+  padding-left: 0.9rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+    width: 3px;
+    height: 1.5rem;
+    border-radius: 999px;
+    background-color: var(--global-theme-color);
+  }
+}
 
 .scholar-metrics {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-  margin: 2rem 0;
+  gap: 1.1rem;
+  margin: 1.5rem 0 2rem;
 }
 
 .metric-card {
   display: block;
-  padding: 1.25rem 1rem;
+  padding: 1.4rem 1rem;
   border: 1px solid var(--global-divider-color);
   border-radius: 8px;
-  background-color: var(--global-card-bg-color);
+  background:
+    linear-gradient(
+      180deg,
+      rgba(216, 128, 211, 0.08),
+      rgba(216, 128, 211, 0.015)
+    ),
+    var(--global-card-bg-color);
   text-align: center;
   text-decoration: none !important;
   transition:
@@ -1505,21 +1538,22 @@ figure.cover {
     box-shadow 0.15s ease;
 
   &:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
     border-color: var(--global-theme-color);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
     text-decoration: none !important;
   }
 }
 
 .metric-number {
   color: var(--global-theme-color);
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 2.3rem;
+  font-weight: 700;
   line-height: 1.1;
 }
 
 .metric-label {
-  margin-top: 0.4rem;
+  margin-top: 0.45rem;
   color: var(--global-text-color-light);
   font-size: 0.95rem;
 }
@@ -1527,12 +1561,6 @@ figure.cover {
 .metric-updated {
   color: var(--global-text-color-light);
   font-size: 0.9rem;
-}
-
-@media (max-width: 576px) {
-  .scholar-metrics {
-    grid-template-columns: 1fr;
-  }
 }
 
 // Footprint map
@@ -1551,6 +1579,10 @@ figure.cover {
 }
 
 @media (max-width: 576px) {
+  .scholar-metrics {
+    grid-template-columns: 1fr;
+  }
+
   #footprint-map {
     height: 320px;
   }

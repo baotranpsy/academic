@@ -6,9 +6,11 @@ nav: true
 nav_order: 3
 ---
 
-<p>
-This page highlights my Google Scholar citation metrics and research visibility.
+<p class="metrics-lead">
+A snapshot of my research visibility, citation profile, and academic footprint.
 </p>
+
+<h2 class="section-heading">Google Scholar Metrics</h2>
 
 <div class="scholar-metrics">
   <a class="metric-card" href="https://scholar.google.com/citations?user=fn3BgTkAAAAJ&hl=en" target="_blank" rel="noopener">
@@ -36,7 +38,7 @@ Metrics are based on my
 Last updated: May 2026
 </p>
 
-<h2>footprint</h2>
+<h2 class="section-heading">Footprint</h2>
 
 <p>
 Places that have shaped my academic and personal journey.
@@ -54,7 +56,7 @@ Places that have shaped my academic and personal journey.
 <script>
   const footprintMap = L.map("footprint-map", {
     scrollWheelZoom: false,
-  }).setView([18, 113], 4);
+  }).setView([16, 112], 5);
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 18,
