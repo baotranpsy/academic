@@ -35,3 +35,37 @@ Metrics are based on my
 <p class="metric-updated">
 Last updated: May 2026
 </p>
+
+<h2>Research Footprint</h2>
+
+<div class="research-footprint">
+  <div class="footprint-item">
+    <span class="footprint-dot"></span>
+    <div>
+      <h3>Mental Health</h3>
+      <p>
+        Earlier academic work focused on mental health, psychological help-seeking, and adverse childhood experiences.
+      </p>
+    </div>
+  </div>
+
+  <div class="footprint-item">
+    <span class="footprint-dot"></span>
+    <div>
+      <h3>Neuroscience</h3>
+      <p>
+        Current research interests center on neuroscience, with a particular focus on brain states and their underlying neural mechanisms.
+      </p>
+    </div>
+  </div>
+
+  <div class="footprint-item">
+    <span class="footprint-dot"></span>
+    <div>
+      <h3>Research Collaboration</h3>
+      <p>
+        Ongoing work is shaped by collaborative research projects and affiliation with The Brain State Lab.
+      </p>
+    </div>
+  </div>
+</div>
